@@ -28,4 +28,8 @@ for file in $files; do
     ln -s $dir/$file ~/$file
 done
 
+
+# install rupa z
+
+
 source ~/.bashrc
