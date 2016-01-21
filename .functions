@@ -3,6 +3,9 @@ function md() {
 	mkdir -p "$@" && cd "$@"
 }
 
+#cd and auto ls
+function cs() { cd $@ && ls; }
+
 
 # find shorthand
 function f() {
