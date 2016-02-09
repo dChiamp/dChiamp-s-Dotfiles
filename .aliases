@@ -82,3 +82,5 @@ done
 
 #aliases for common used apps
 alias chrome='open -a "Google Chrome"'
+
+alias lynx='/Applications/Lynxlet.app/Contents/Resources/lynx/bin/lynx'
