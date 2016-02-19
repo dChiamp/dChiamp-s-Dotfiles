@@ -12,6 +12,9 @@ alias mv='mv -v'
 alias rm='rm -i -v'
 alias cp='cp -v'
 
+#add if other ls alias doesnt work:
+#alias la='ls -a'
+
 alias cask='brew cask' # i <3 u cask
 alias where=which # sometimes i forget
 alias brwe=brew  #typos
