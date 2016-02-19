@@ -14,6 +14,7 @@ upgrade to bash 4
 
 custom bootstrap, run at your own risk!
 
-if anything goes wrong, delete dotfiles repo to break symlinks
+if anything goes wrong, delete dotfiles repo to break symlinks:
+rm -f ~/dotfiles
 
 
