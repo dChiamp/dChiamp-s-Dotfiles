@@ -1,20 +1,28 @@
-MY dotfiles inspired by Paul Irish
+#MY dotfiles inspired by Paul Irish
 
 simple, small 
 
 great functions and aliases
 
-you should:
+##you should:
 
-create your own .extra file to set your $PATH
+-create your own .extra file to set your $PATH
 
-install rupa z from github
+-look through everything and make sure it works for you
+*especially in aliases, look for the ls mod that might break you
 
-upgrade to bash 4
 
-custom bootstrap, run at your own risk!
+##custom bootstrap, run at your own risk!
 
-if anything goes wrong, delete dotfiles repo to break symlinks:
-rm -f ~/dotfiles
+-add the dot files you want at the top to make symlinks
+
+-if anything goes wrong, delete dotfiles repo to break symlinks:
+*rm -f ~/dotfiles
+
+##consider
+-install rupa z from github
+
+-upgrade to bash 4
+
 
 
