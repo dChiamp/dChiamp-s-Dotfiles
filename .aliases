@@ -84,3 +84,6 @@ done
 alias chrome='open -a "Google Chrome"'
 
 alias lynx='/Applications/Lynxlet.app/Contents/Resources/lynx/bin/lynx'
+
+#rspec
+alias rspec="rspec --format documentation"
