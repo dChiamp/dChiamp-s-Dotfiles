@@ -66,7 +66,7 @@ export NVM_DIR="$HOME/.nvm"
 # z beats cd most of the time.
 #   github.com/rupa/z
 # change to source from location YOU installed it in
-# source ~/code/z/z.sh
+source ~/code/z/z.sh
 
 
 
@@ -84,4 +84,13 @@ shopt -s nocaseglob;
 
 # Autocorrect typos in path names when using `cd`
 shopt -s cdspell;
+
+#name tabs and windows
+function tabname {
+  printf "\e]1;$1\a"
+}
+
+function winname {
+  printf "\e]2;$1\a"
+}
 
